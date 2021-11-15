@@ -1,5 +1,6 @@
 /*Initializing a value in a specific position of an array*/
 /*date : Oct 3 , 2021*/
+//Edited with Vim
 #include <stdio.h>
 
 int main()
