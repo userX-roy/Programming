@@ -6,7 +6,7 @@ void gcd (void)
     printf("Enter your 2  desired number (1st one should be bigger than the 2nd one) : ");
     scanf("%d%d",&var1,&var2);
     int k = var1 , l = var2;
-    if (k>l)
+    if (k>l) // Will check if the 1st no is bigger than 2nd no.
     {
         while (rem!=0)
         {
@@ -22,7 +22,7 @@ void gcd (void)
     else 
         {
             printf("\nYour 1st num is not bigger than the 2nd one , try once more by following the condition \n\n\n");
-            goto re_enter;
+            goto re_enter; // will send the control to the 'number input' part so that user can put 1st no bigger than 2nd .
         }
     
 }
