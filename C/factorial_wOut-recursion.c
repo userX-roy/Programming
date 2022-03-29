@@ -1,3 +1,4 @@
+/*Calculation of factorial without RECURSION*/
 #include<stdio.h>
 
 int fact(int no)

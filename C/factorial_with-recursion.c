@@ -1,3 +1,4 @@
+/*Calculation of factorial using RECURSION method*/
 #include<stdio.h>
 int facto (int);
 int main()
