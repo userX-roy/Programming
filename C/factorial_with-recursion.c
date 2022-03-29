@@ -12,11 +12,11 @@ int main()
 int facto (int x)
 {
 	int fact = 0;
-	if(x==0)
-		return 1;
-	else
+	if(x>0)
 	{
-	fact = x * facto(x-1);
-	return fact;
+		fact = x * facto(x-1);
+		return fact;
 	}
+	else
+	    return 1;
 }
