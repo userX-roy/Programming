@@ -7,7 +7,7 @@ int func (int c[] , int i);
 int main()
 {
 	int i;
-	/*int ch[]; <= can't do this because compiler is not supporting empty initializing*/
+	/*int ch[]; <= can't do this because compiler is not supporting empty initialization*/
 	printf("How many element you want to add ? ");
 	scanf("%d",&i);
 
